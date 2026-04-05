@@ -1,0 +1,8 @@
+import matplotlib.pyplot as plt
+age_groups = ["0-20", "21-64", "65+"]
+population = [512, 807, 98]
+plt.bar(age_groups, population)
+plt.title("India Population Distribution by Age")
+plt.xlabel("Age Groups")
+plt.ylabel("Population (in millions)")
+plt.show()
